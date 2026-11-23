@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Laya-IsoToken: Zero-Training Clinical Codebook Switching via Closed-Form Operator Compilation"
+message: "If you use this software in academic research, please cite the following work."
+type: software
+license: AGPL-3.0-only
+repository-code: "https://github.com/ZeqiangWangAI/Laya-IsoToken"
+authors:
+  - family-names: Wang
+    given-names: Zeqiang
+    affiliation: University of Surrey
+    email: zeqiang.wang@surrey.ac.uk

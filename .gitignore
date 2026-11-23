@@ -1,0 +1,44 @@
+# Python & virtual environments
+.venv/
+.cache/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# Clinical datasets, credentialed records, checkpoints, and run outputs (NEVER commit PHI)
+data/
+artifacts/
+runs/
+reports/
+refine-logs/
+docs/
+*.jsonl
+*.parquet
+*.feather
+*.arrow
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Manuscript, cluster job scripts, and internal stage helpers (kept out of core code repo)
+paper/
+slurm/
+submission_package/
+.olcli.json
+SPEC.md
+NARRATIVE_REPORT.md
+/*.png
+scripts/audit_*.py
+scripts/build_*.py
+scripts/generate_*.py
+scripts/merge_*.py
+scripts/verify_*.py
+scripts/*.sh
+src/icd_transfer/paper_figures.py
+src/icd_transfer/paper_tables.py
+
+# OS metadata
+.DS_Store
